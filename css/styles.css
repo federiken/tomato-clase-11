@@ -1,0 +1,100 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+body{
+    /* se utiliza por ejemplo para colores generales, tipografias, tamaños generales... */   
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/*  estilos de mi header */
+header{
+    text-align: center;
+    background-color:rgb(98, 23, 23);
+    position: sticky;
+    font-size: 20px;
+    
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: beige;
+    display: inline-block;
+    text-align: center;
+}
+
+/* estilos de mi main  */
+
+main{
+    text-align: center;
+    
+}
+
+main h1{
+    text-align: center;
+    background-color: burlywood;
+    display: inline-block;
+    width: 100%;
+    height: 300%;
+}
+
+main div{
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.boton-producto{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+main h2{
+    text-align: center;
+    background-color: burlywood;
+
+}
+
+main h3{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: burlywood;
+
+}
+
+main h4{
+    text-align: center;
+    background-color: bisque;
+    padding: 50px ;
+    text-transform: uppercase;
+    
+}
+/* estilos de mi footer */
+
+footer{
+    text-align: center;
+    text-decoration: underline;
+}
+div.redes{
+    text-align:end
+
+}
